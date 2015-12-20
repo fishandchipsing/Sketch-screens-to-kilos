@@ -1,0 +1,23 @@
+{
+  "author" : "Simone Rebaudengo",
+  "commands" : [
+    {
+      "script" : "script.cocoascript",
+      "handler" : "onRun",
+      "shortcut" : "",
+      "name" : "Screens-to-Kilos",
+      "identifier" : "Screens-to-Kilos"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "Screens-to-Kilos"
+    ],
+    "title" : "Screens-to-Kilos"
+  },
+  "identifier" : "com.example.sketch.922a6811-1de4-4997-bfce-cf2aa6dadb18",
+  "version" : "1.0",
+  "description" : "a true measurements of your daily digital fatigue",
+  "authorEmail" : "",
+  "name" : "Screens-to-Kilos"
+}

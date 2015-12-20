@@ -1,0 +1,84 @@
+
+
+var onRun = function(context) {
+var pluginPath = context.scriptPath.substring(0, context.scriptPath.lastIndexOf('/'));
+ var alert = COSAlertWindow.new();
+ alert.addButtonWithTitle('OK');
+
+
+ var icon = NSImage.alloc().initByReferencingFile(pluginPath + '/image.icns');
+ alert.setIcon(icon);
+
+
+var documentName = context.document.displayName();
+
+var doc=context.document;
+
+var page = [doc currentPage];
+
+var artboards = [[doc currentPage] artboards];
+var num = [artboards count];
+var cmq=0;
+var mq=0;
+
+for (var i=0; i<num; i++) {
+    var artboard = artboards[i];
+	var area= artboard.rect().size;
+    var w=area.width;
+	var wCm=w/28.4;
+	var h=area.height;
+	var hCm=h/28.4;
+	//var sizePix=w*h;	
+	var sizeCm=wCm*hCm;
+   	//log(sizeCm);
+	cmq=cmq+sizeCm;
+	//log('total cmq' + cmq);
+  }
+
+mq=cmq/10000;
+log('total mq' + mq);
+
+var selectedLayers = context.selection;
+var selectedCount = selectedLayers.count();
+
+var paperWeight=0.2;
+var kilos=Number((mq * paperWeight).toFixed(2));
+
+var tuna=305;
+var beef=170;
+var oysters=6;
+var spaghetti=1.5;
+var culatello=74.9837;
+
+
+var material=[tuna, beef, oysters,spaghetti, culatello];
+var name=["Blue Fin Tuna", "Kobe Beef", "Boston Oysters", "Gragnano Spaghetti", "Culatello"];
+
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+rand=getRandomInt(0,4);
+
+
+log('With a splurge of: ' + num +' artboards');
+log('If you would print on: ' + paperWeight*1000 +'g paper');
+log('Today you produced '+ kilos+ ' kg of wireframes');
+
+log('If it would be sold as Blue fin Tuna it would be '+ kilos*tuna + ' dollars');
+log('If it would be sold as Kobe beef it would be '+ kilos*beef + ' dollars');
+log('If it would be sold as Spaghetti it would be '+ kilos*spaghetti + ' dollars');
+
+ var app = [NSApplication sharedApplication];
+
+
+log(pluginPath);
+ alert.setMessageText("Life is Hard");
+ alert.setInformativeText('With a splurge of ' + num +' artboards.\nToday you produced '+ kilos+ ' kg of wireframes/screens. \nIf it would be sold as '+name[rand]+', \nit would be '+ (kilos*material[rand]).toFixed(2) + ' dollars');
+
+alert.runModal();
+
+
+
+
+
+};
