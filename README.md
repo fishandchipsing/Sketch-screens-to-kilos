@@ -3,7 +3,7 @@
 
 * Have you ever had the problem of quantifing the work you've done? 
 * Is your boss never happy of how much you produced?
- *Isn't it just complicated to assess the value of your daily production of wireframes or screens?
+* Isn't it just complicated to assess the value of your daily production of wireframes or screens?
 
 **Those days are over!**
 
