@@ -2,7 +2,7 @@
 **A true measurements of your daily digital fatigue.**
 
 * Have you ever had the problem quantifing the work you've done? 
-* Is your boss never happy about how much you produced?
+* Is your boss or your client never happy about how much you produced?
 * Isn't it just complicated to assess the value of your daily production of wireframes or screens?
 
 **Those days are over!**
@@ -13,5 +13,6 @@ It tells you how many kilos of work you produced if you would print it on beauti
 ![Alt text](/Screens-to-kilos-screenshot.png)
 
 This first version has sadly hardcoded prices, but i will try to incorporate some live data as soon as i learn some more cocoaScript.
+This is the first of few more Unproductivity plugins to come from [Automato Farm](http://automato.farm/ "Automato")
 
-Let your boss appreciate you and Enjoy your work one kilo at a time.
+**Let your boss appreciate you and Enjoy your work one kilo at a time.**
