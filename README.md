@@ -13,6 +13,6 @@ It tells you how many kilos of work you produced if you would print it on beauti
 ![Alt text](/Screens-to-kilos-screenshot.png)
 
 This first version has sadly hardcoded prices, but i will try to incorporate some live data as soon as i learn some more cocoaScript.
-This is the first of few more Unproductivity plugins to come from [Automato Farm](http://automato.farm/ "Automato")
+This is the first of few more Unproductivity plugins to come from myself @ [automato farm](http://automato.farm/ "Automato")
 
 **Let your boss appreciate you and Enjoy your work one kilo at a time.**
