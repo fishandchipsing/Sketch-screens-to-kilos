@@ -49,15 +49,21 @@ var beef=170;
 var oysters=6;
 var spaghetti=1.5;
 var culatello=74.9837;
+var truffle=4346;
+var beluga=7000;
+var nutella=8;
+var saffron=2200;
+var ragu=15.09;
 
 
-var material=[tuna, beef, oysters,spaghetti, culatello];
-var name=["Blue Fin Tuna", "Kobe Beef", "Boston Oysters", "Gragnano Spaghetti", "Culatello"];
+var material=[tuna, beef, oysters,spaghetti, culatello, truffle, beluga, nutella, saffron, ragu];
+var name=["Blue Fin Tuna", "Kobe Beef", "Boston Oysters", "Gragnano Spaghetti", "Parma Culatello", "Winter White Truffle", "Beluga Caviar", "Nutella", "Iranian Saffron", "Grandma's Ragu"];
 
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
-rand=getRandomInt(0,4);
+
+rand=getRandomInt(0,material.length-1);
 
 
 log('With a splurge of: ' + num +' artboards');
