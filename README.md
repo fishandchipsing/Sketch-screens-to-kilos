@@ -9,7 +9,8 @@
 
 Screen to Kilos is the first ever plugin to transform your daily fatigue into a measurable and understandable amount.
 It tells you how many kilos of work you produced if you would print it on beautiful and precious 200g paper and it humanizes the data by giving you a reference in high quality food types lik Blue fin Tuna or Kobe beef.
-![Alt text](fishandchipsing.github.com/Sketch-screens-to-kilos/Screens-to-kilos-screenshot.png)
+
+![Alt text](/Screens-to-kilos-screenshot.png)
 
 This first version has sadly hardcoded prices, but i will try to incorporate some live data as soon as i learn some more cocoaScript.
 
