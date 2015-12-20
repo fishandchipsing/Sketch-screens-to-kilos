@@ -1,8 +1,8 @@
 # Sketch-screens-to-kilos
 **A true measurements of your daily digital fatigue.**
 
-* Have you ever had the problem of quantifing the work you've done? 
-* Is your boss never happy of how much you produced?
+* Have you ever had the problem quantifing the work you've done? 
+* Is your boss never happy about how much you produced?
 * Isn't it just complicated to assess the value of your daily production of wireframes or screens?
 
 **Those days are over!**
